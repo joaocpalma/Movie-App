@@ -1,0 +1,73 @@
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  max-width: 700px;
+  margin: 40px auto;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.movie-details img {
+  width: 100%;
+  height: auto; /* Keep full aspect ratio */
+  max-height: none; /* Remove the height cap */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  object-fit: contain; /* or remove if unnecessary */
+}
+
+.movie-details-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.movie-details h3 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.movie-details p {
+  font-size: 1rem;
+  margin: 4px 0;
+  color: #ccc;
+}
+
+.meta-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.meta-item {
+  background-color: #2e2e2e;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 5px;
+}
+
+.rating {
+  background-color: #1db954;
+}
+
+.status {
+  background-color: #ffaa00;
+}
+
+.runtime {
+  background-color: #0077ff;
+}
+
+.release-year {
+  background-color: #444;
+}
